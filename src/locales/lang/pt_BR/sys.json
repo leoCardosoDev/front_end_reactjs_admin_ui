@@ -1,0 +1,146 @@
+{
+  "sys": {
+    "api": {
+      "operationSuccess": "Operação bem-sucedida",
+      "operationFailed": "Operação falhou",
+      "errorTip": "Dica de erro",
+      "successTip": "Dica de sucesso",
+      "errorMessage": "A operação falhou, o sistema está anormal!",
+      "timeoutMessage": "Sessão expirada, por favor, faça login novamente!",
+      "apiTimeoutMessage": "A solicitação da interface expirou, por favor, atualize a página e tente novamente!",
+      "apiRequestFailed": "A solicitação da interface falhou, por favor, tente novamente mais tarde!",
+      "networkException": "Anomalia na rede",
+      "networkExceptionMsg": "Por favor, verifique se sua conexão de rede está normal! A rede está anormal",
+
+      "errMsg401": "O usuário não tem permissão (token, nome de usuário ou senha incorretos)!",
+      "errMsg403": "O usuário está autorizado, mas o acesso é proibido!",
+      "errMsg404": "Erro de solicitação de rede, o recurso não foi encontrado!",
+      "errMsg405": "Erro de solicitação de rede, método de solicitação não permitido!",
+      "errMsg408": "Solicitação de rede expirou!",
+      "errMsg500": "Erro no servidor, por favor, contate o administrador!",
+      "errMsg501": "A rede não foi implementada!",
+      "errMsg502": "Erro de rede!",
+      "errMsg503": "O serviço está indisponível, o servidor está temporariamente sobrecarregado ou em manutenção!",
+      "errMsg504": "Tempo limite da rede!",
+      "errMsg505": "A versão HTTP não suporta a solicitação!"
+    },
+    "login": {
+      "backSignIn": "Voltar para login",
+      "mobileSignInFormTitle": "Login com celular",
+      "qrSignInFormTitle": "Login com código QR",
+      "signInFormTitle": "Entrar",
+      "signUpFormTitle": "Registrar",
+      "forgetFormTitle": "Redefinir senha",
+
+      "signInPrimaryTitle": "Olá, Bem-vindo de volta",
+      "signInSecondTitle": "Sistema de gerenciamento",
+      "signInTitle": "",
+      "signInDesc": "Digite seus dados pessoais e comece agora!",
+      "policy": "Eu concordo com a Política de Privacidade xxx",
+      "scanSign": "Escaneie o código para completar o login",
+      "forgetFormSecondTitle": "Por favor, insira o endereço de e-mail associado à sua conta e enviaremos um link para redefinir sua senha.",
+
+      "loginButton": "Entrar",
+      "registerButton": "Registrar",
+      "rememberMe": "Lembrar-me",
+      "forgetPassword": "Esqueceu a senha?",
+      "otherSignIn": "Entrar com",
+      "sendSmsButton": "Enviar código SMS",
+      "sendSmsText": "Reenviar em {{second}}s",
+      "sendEmailButton": "Enviar e-mail",
+
+      "loginSuccessTitle": "Login bem-sucedido",
+      "loginSuccessDesc": "Bem-vindo de volta",
+
+      "accountPlaceholder": "Por favor, insira o nome de usuário",
+      "passwordPlaceholder": "Por favor, insira a senha",
+      "confirmPasswordPlaceholder": "Por favor, confirme a senha",
+      "emaildPlaceholder": "Por favor, insira o e-mail",
+      "smsPlaceholder": "Por favor, insira o código SMS",
+      "mobilePlaceholder": "Por favor, insira o celular",
+      "policyPlaceholder": "Registrar após a verificação",
+      "diffPwd": "As duas senhas não coincidem",
+
+      "userName": "Nome de usuário",
+      "password": "Senha",
+      "confirmPassword": "Confirmar senha",
+      "email": "E-mail",
+      "smsCode": "Código SMS",
+      "mobile": "Celular",
+
+      "registerAndAgree": "Ao se registrar, eu concordo com",
+      "termsOfService": " os Termos de Serviço ",
+      "privacyPolicy": " Política de Privacidade ",
+      "logout": "Sair"
+    },
+    "tab": {
+      "fullscreen": "Tela cheia",
+      "refresh": "Atualizar",
+      "close": "Fechar",
+      "closeOthers": "Fechar outros",
+      "closeAll": "Fechar todos",
+      "closeLeft": "Fechar à esquerda",
+      "closeRight": "Fechar à direita"
+    },
+    "menu": {
+      "dashboard": "Painel",
+      "workbench": "Área de trabalho",
+      "analysis": "Análise",
+      "management": "Gerenciamento",
+      "user": {
+        "index": "Usuário",
+        "profile": "Perfil",
+        "account": "Conta"
+      },
+      "system": {
+        "index": "Sistema",
+        "organization": "Organização",
+        "permission": "Permissão",
+        "role": "Função",
+        "user": "Usuário",
+        "user_detail": "Detalhes do usuário"
+      },
+      "blog": "Blog",
+      "components": "Componentes",
+      "icon": "Ícone",
+      "animate": "Animar",
+      "scroll": "Rolagem",
+      "markdown": "Markdown",
+      "editor": "Editor",
+      "i18n": "Multi Idiomas",
+      "upload": "Upload",
+      "chart": "Gráfico",
+      "functions": "Funções",
+      "clipboard": "Área de transferência",
+      "token_expired": "Token expirado",
+      "menulevel": {
+        "index": "Nível do menu",
+        "1a": "Nível do menu 1a",
+        "1b": {
+          "index": "Nível do menu 1b",
+          "2a": "Nível do menu 2a",
+          "2b": {
+            "index": "Nível do menu 2b",
+            "3a": "Nível do menu 3a",
+            "3b": "Nível do menu 3b"
+          }
+        }
+      },
+      "disabled": "Item desativado",
+      "label": "Etiqueta do item",
+      "frame": "Item externo",
+      "external_link": "Link externo",
+      "iframe": "Iframe",
+      "blank": "Em branco",
+      "calendar": "Calendário",
+      "kanban": "Kanban",
+      "error": {
+        "index": "Página de erro",
+        "403": "403",
+        "404": "404",
+        "500": "500"
+      }
+    },
+    "docs": "Documento"
+  }
+}
