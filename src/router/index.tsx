@@ -2,7 +2,6 @@ import { lazy } from 'react';
 import { Navigate, RouteObject, RouterProvider, createHashRouter } from 'react-router-dom';
 
 import DashboardLayout from '@/layouts/dashboard';
-import AuthGuard from '@/router/components/auth-guard';
 import { usePermissionRoutes } from '@/router/hooks';
 import { ErrorRoutes } from '@/router/routes/error-routes';
 
@@ -23,9 +22,7 @@ export default function Router() {
   const asyncRoutes: AppRouteObject = {
     path: '/',
     element: (
-      <AuthGuard>
-        <DashboardLayout />
-      </AuthGuard>
+      <DashboardLayout />
     ),
     children: [{ index: true, element: <Navigate to={HOMEPAGE} replace /> }, ...permissionRoutes],
   };
